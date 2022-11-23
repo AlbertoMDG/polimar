@@ -1,4 +1,10 @@
+"use client";
+
 const ContactForm = () => {
+  const handleClick = (e: any) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="px-20 py-24">
       <form className="flex flex-col justify-center">
@@ -25,6 +31,7 @@ const ContactForm = () => {
 
         <div className="flex justify-center">
           <button
+            onClick={(e) => handleClick(e)}
             className="bg-cyan-200 w-52 h-12 text-white font-bold"
             type="submit"
           >
