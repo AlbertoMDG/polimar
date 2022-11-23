@@ -13,6 +13,7 @@
 }
 
 .whatsapp {
+  right: 0;
   position: fixed;
   top: 75%;
 }
