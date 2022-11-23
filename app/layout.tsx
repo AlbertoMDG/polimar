@@ -2,6 +2,7 @@ import { NavBar } from "./components/NavBar";
 import "../styles/globals.css";
 import { Poppins, Roboto } from "@next/font/google";
 import Footer from "./components/Footer";
+import Whatsapp from "./components/Whatsapp";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,12 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className={`${poppins.className} w-1280 mx-auto`}>
       <head />
-      <body className={`${poppins.className} w-1280 mx-auto`}>
+      <body>
         <NavBar />
         {children}
         <Footer />
+        <Whatsapp />
       </body>
     </html>
   );

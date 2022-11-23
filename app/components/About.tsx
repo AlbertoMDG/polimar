@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,7 +6,13 @@ const About = () => {
   return (
     <div className="bg-hero-pattern py-11 px-40">
       <div className="flex">
-        <Image src="/about.png" width={467} height={453} alt="about" />
+        <Image
+          className="img"
+          src="/about.png"
+          width={467}
+          height={453}
+          alt="about"
+        />
         <div className="ml-6">
           <h2 className="text-4xl font-bold mt-6">En Polimar</h2>
           <p className="mt-6 text-base font-normal">

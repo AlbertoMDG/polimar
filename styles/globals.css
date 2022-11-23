@@ -11,3 +11,13 @@
   top: 25.375rem;
   left: 56.25rem;
 }
+
+.whatsapp {
+  position: fixed;
+  right: 0;
+}
+
+.img {
+  width: auto;
+  height: auto;
+}

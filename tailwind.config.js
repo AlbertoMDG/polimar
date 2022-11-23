@@ -15,6 +15,11 @@ module.exports = {
         darkblue: {
           100: "#1D254A",
         },
+        gray: {
+          10: "#D9D9D9",
+          15: "#F3F3F3",
+          20: "#F8F8F8",
+        },
       },
       spacing: {
         1280: "80rem",
