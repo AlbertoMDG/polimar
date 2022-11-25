@@ -8,7 +8,7 @@ export const NavBar = () => {
   const pathName = usePathname();
 
   return (
-    <header className="flex  bg-cyan-100 h-20 py-2 px-32 justify-between">
+    <header className="flex  bg-darkblue-100 h-20 py-2 px-32 justify-between">
       <div>
         <Image src="/logo.svg" width={231} height={68} alt="logo" />
       </div>
@@ -18,8 +18,8 @@ export const NavBar = () => {
             <Link
               className={
                 pathName === "/"
-                  ? "text-black text-lg font-semibold  ml-10"
-                  : "text-white text-lg  ml-10"
+                  ? "text-white text-lg font-semibold  ml-10"
+                  : "text-cyan-100 text-lg  ml-10"
               }
               href="/"
             >
@@ -31,8 +31,8 @@ export const NavBar = () => {
               href="/productos"
               className={
                 pathName === "/productos"
-                  ? "text-black text-lg font-semibold  ml-10"
-                  : "text-white text-lg  ml-10"
+                  ? "text-white text-lg font-semibold  ml-10"
+                  : "text-cyan-100 text-lg  ml-10"
               }
             >
               Productos
@@ -43,8 +43,8 @@ export const NavBar = () => {
               href="/contacto"
               className={
                 pathName === "/contacto"
-                  ? "text-black text-lg font-semibold  ml-10"
-                  : "text-white text-lg  ml-10"
+                  ? "text-white text-lg font-semibold  ml-10"
+                  : "text-cyan-100 text-lg  ml-10"
               }
             >
               Contacto
