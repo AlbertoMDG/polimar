@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Polimar - Fábrica de Empaques Flexibles
 
-## Getting Started
+Una aplicación web moderna construida con Next.js 14, TypeScript y Tailwind CSS para Polimar, empresa especializada en la fabricación de empaques y envases plásticos flexibles.
 
-First, run the development server:
+## 🚀 Características
 
+- **Diseño Moderno y Responsivo**: Interfaz optimizada para todos los dispositivos
+- **SEO Optimizado**: Metadatos completos, sitemap y robots.txt
+- **Rendimiento Superior**: Imágenes optimizadas y componentes eficientes
+- **Accesibilidad**: Cumple con estándares de accesibilidad web
+- **TypeScript**: Código tipado para mejor mantenibilidad
+- **Tailwind CSS**: Estilos modernos y consistentes
+
+## 🛠️ Tecnologías
+
+- **Next.js 14** - Framework de React con App Router
+- **TypeScript** - Superset tipado de JavaScript
+- **Tailwind CSS** - Framework de CSS utilitario
+- **React 18** - Biblioteca de interfaz de usuario
+- **Next/Image** - Optimización automática de imágenes
+
+## 📦 Instalación
+
+1. Instala las dependencias:
 ```bash
-npm run dev
-# or
-yarn dev
+npm install
+# o
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Ejecuta el servidor de desarrollo:
+```bash
+npm run dev
+# o
+pnpm dev
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🏗️ Estructura del Proyecto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+app/
+├── components/          # Componentes reutilizables
+│   ├── About.tsx       # Sección "Acerca de"
+│   ├── ContactForm.tsx # Formulario de contacto
+│   ├── ContactInfo.tsx # Información de contacto
+│   ├── Footer.tsx      # Pie de página
+│   ├── Hero.tsx        # Sección hero
+│   ├── Mapa.tsx        # Mapa de ubicación
+│   ├── NavBar.tsx      # Barra de navegación
+│   ├── Producto.tsx    # Componente de producto
+│   └── Whatsapp.tsx    # Botón flotante de WhatsApp
+├── contacto/           # Página de contacto
+├── productos/          # Página de productos
+├── layout.tsx          # Layout principal
+├── page.tsx            # Página de inicio
+├── robots.ts          # Configuración de robots.txt
+└── sitemap.ts         # Generación de sitemap
+```
 
-## Learn More
+## 🚀 Scripts Disponibles
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev         # Servidor de desarrollo
+npm run build       # Compilar para producción
+npm run start       # Ejecutar compilación de producción
+npm run lint        # Verificar código con ESLint
+npm run type-check  # Verificación de tipos TypeScript
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Contacto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para más información sobre Polimar:
+- **Teléfono**: +58 412-6837411
+- **Instagram**: [@polimar.ca](https://www.instagram.com/polimar.ca/)
+- **Ubicación**: Avenida 68, Maracaibo 4004, Zulia, Venezuela
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Desarrollado con ❤️ para Polimar C.A.
